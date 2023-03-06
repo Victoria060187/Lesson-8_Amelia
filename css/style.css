@@ -1,0 +1,231 @@
+@import url('reset.css');
+
+/* !GLOBAL STYLES */
+
+body {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+background: #F5F5F5;
+color: #161616;
+font-size: 18px;
+line-height: 24px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 34px;
+	text-align: center;
+}
+
+.wrapper {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 1140px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+html, body {
+	scroll-behavior: smooth;
+}
+
+/* !HEADER */
+
+header {
+	background: #81A36B;
+	padding: 20px 0;
+}
+
+.header-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-list ul {
+	display: flex;
+	gap: 90px;
+}
+
+.header-list ul > li a {
+	color: #161616;
+	text-decoration: none;
+}
+
+/* *TODO: FLOWERS*/
+
+.flowers .container {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	padding-bottom: 120px;
+}
+
+.flower-title {
+	flex: 1 1 50%;
+}
+
+.flowers h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 62px;
+	line-height: 67px;
+	text-align: center;
+}
+
+.flower-image {
+	flex: 1 1 50%;
+}
+
+.flower-text {
+	text-align: left;
+	padding-top: 60px;
+	line-height: 30px;
+}
+
+.flower-buttons {
+	padding-top: 40px;
+	display: inline-block;
+	font-size: 0px;
+}
+
+.flower-buttons button {
+	background: #81A36B;
+	font-size: 16px;
+	padding: 20px 30px;
+	height: 60px;
+}
+
+.flower-buttons a {
+	text-decoration: none;
+	color: #161616;
+	font-size: 16px;
+	padding-left: 65px;
+}
+
+/* *TODO: ABOUT */
+
+.about_us .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.about-text {
+	padding: 0px 285px 120px 285px;
+}
+
+/* *TODO: PRICE */
+
+.price {
+	background: #81A36B;
+	padding: 80px 0;
+	margin-bottom: 120px;
+}
+
+.price-box {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+/* *TODO: WE_WORK */
+
+.we_work .container {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	padding-bottom: 120px;
+}
+
+.work-image {
+	flex: 1 1 50%;
+}
+
+.work-title {
+	flex: 1 1 50%;
+}
+
+.work-text {
+	text-align: left;
+	line-height: 30px;
+}
+
+/* *TODO: OUR_WORKS */
+
+.works-cards {
+	display: flex;
+	gap: 30px;
+	text-align: center;
+	padding-bottom: 120px;
+}
+
+.card {
+	background: #81A36B;
+	padding: 15px 15px 70px 15px;
+	flex: 1 1 30%;
+}
+
+.card p {
+	padding-top: 20px;
+}
+
+.container h2 {
+	padding-bottom: 80px;
+}
+
+/* !FOOTER */
+
+.footer {
+	background: #81A36B;
+	padding: 60px 0;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.flex-container h3 {
+	font-size: 24px;
+	line-height: 26px;
+	margin-bottom: 40px;
+}
+
+.footer-contact a {
+	color: #161616;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.footer-contact ul > li + li {
+	margin-top: 20px;
+}
+
+.footer-social ul {
+	display: flex;
+	gap: 20px;
+	padding-left: 35px;
+}
+
+.footer-year {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
